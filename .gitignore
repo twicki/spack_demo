@@ -1,0 +1,5 @@
+venv
+spack-c2sm
+**/*.egg-info
+**/__pycache__
+.vscode

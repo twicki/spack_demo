@@ -1,0 +1,7 @@
+spack:
+  specs:
+    - geos@3.9.1
+    - proj@8.2.1
+  view: True
+
+  
