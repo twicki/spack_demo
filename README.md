@@ -30,6 +30,12 @@ pip install -e package_a
 spack will download the dependencies we have specified in the package for our convenience:
 
 #### Non python dependencices in spack
+
+Find the system libraries in spack (only once):
+```
+spack external find --all
+```
+and install the package dependencies:
 ```
 spack env create testenv package_a/install/spack.yaml
 spack env activate --with-view testenv
